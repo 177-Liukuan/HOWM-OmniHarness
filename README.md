@@ -4,7 +4,7 @@
 
 ## 独立代码仓库
 
-本方法单独使用 Git 管理，远端为 [177-Liukuan/HOWM-OmniHarness](https://github.com/177-Liukuan/HOWM-OmniHarness)（私有仓库）。它是当前目录自己的仓库，不是父项目的子模块。
+本方法单独使用 Git 管理，远端为 [177-Liukuan/HOWM-OmniHarness](https://github.com/177-Liukuan/HOWM-OmniHarness)（公开仓库）。它是当前目录自己的仓库，不是父项目的子模块。
 
 仓库包含代码、提示词、配置、上游来源说明，以及[最新开发验证结果](results/2026-10-04-focused-review/README.md)。数据集、模型权重、原生会话与完整运行输出继续保留在HOWM-LAB工作区，不纳入版本控制。归档的四题预测不是全量官方提交。
 
