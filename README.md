@@ -26,6 +26,8 @@ Final Decision 由 Python 检查后直接写入，不再调用模型。Review �
 
 服务为 `howm-omniharness-qwen9b`，runner 与其共享网络。服务常驻，不在实验结束时释放显存。使用已有 Docker 镜像，不需要污染宿主机 Python 环境。
 
+当前服务通过`config/serve.sh`配置`--max-num-seqs 8`，在GPU1、GPU2上以TP=2运行Qwen3.5-9B。该值是服务端调度序列上限；`run.py`仍逐题串行，不会自动变成8题并行。已有聚焦Review实验是在上限4的配置下完成，历史结果保持原样；本次调整不代表已经通过8路多模态压力测试。
+
 ```bash
 cd /storage1/HOWM-LAB-Project/methods/howm-omniharness
 ./launch.sh howm-omni-my-smoke 001,003,026,036,049,076,094,4884

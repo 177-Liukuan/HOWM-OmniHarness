@@ -13,7 +13,7 @@ export CUBLAS_WORKSPACE_CONFIG=:4096:8
 exec /opt/vllm/bin/python -m vllm.entrypoints.cli.main serve /models/Qwen3.5-9B \
   --host 127.0.0.1 --port 8000 --served-model-name howm-qwen35-9b \
   --dtype bfloat16 --enforce-eager --tensor-parallel-size 2 --max-model-len 131072 \
-  --max-num-seqs 4 --max-num-batched-tokens 8192 --gpu-memory-utilization 0.85 \
+  --max-num-seqs 8 --max-num-batched-tokens 8192 --gpu-memory-utilization 0.85 \
   --seed 20260929 --reasoning-parser qwen3 \
   --enable-auto-tool-choice --tool-call-parser qwen3_coder \
   --default-chat-template-kwargs '{"enable_thinking":false}' \
