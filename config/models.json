@@ -1,0 +1,35 @@
+{
+  "models": [
+    {
+      "slug": "howm-qwen35-9b",
+      "display_name": "HOWM Qwen3.5 9B",
+      "description": "Local model only",
+      "default_reasoning_level": "none",
+      "supported_reasoning_levels": [
+        {
+          "effort": "none",
+          "description": "Local model non-thinking inference"
+        }
+      ],
+      "shell_type": "unified_exec",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 1,
+      "context_window": 131072,
+      "max_context_window": 131072,
+      "experimental_supported_tools": [],
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "base_instructions": "你是 HOWM-OmniHarness 的视觉推理模块。只完成当前指定角色，只返回一个 JSON 对象。根据实际附图区分可见事实、推断和未知。不得调用工具、读取文件、访问网络、创建代理或使用任何历史题答案。遵守本题原始 instruction、原候选编号。",
+      "use_responses_lite": false,
+      "support_verbosity": false,
+      "multi_agent_version": "v1",
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      }
+    }
+  ]
+}

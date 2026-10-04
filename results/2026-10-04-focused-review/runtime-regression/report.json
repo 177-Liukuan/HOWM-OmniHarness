@@ -1,0 +1,70 @@
+{
+  "passed": 16,
+  "checks": [
+    {
+      "name": "real_094_contracts",
+      "passed": true
+    },
+    {
+      "name": "duplicate_candidate_rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong_candidate_image_rejected",
+      "passed": true
+    },
+    {
+      "name": "new_evidence_requires_review",
+      "passed": true
+    },
+    {
+      "name": "specific_issue_admitted",
+      "passed": true
+    },
+    {
+      "name": "repeat_request_rejected",
+      "passed": true
+    },
+    {
+      "name": "no_impact_stops",
+      "passed": true
+    },
+    {
+      "name": "invalid_interval_rejected",
+      "passed": true
+    },
+    {
+      "name": "actual_video_frames_and_pts",
+      "passed": true
+    },
+    {
+      "name": "actual_original_resolution_crop",
+      "passed": true
+    },
+    {
+      "name": "concurrent_append_dedup",
+      "passed": true
+    },
+    {
+      "name": "conflicting_append_rejected",
+      "passed": true
+    },
+    {
+      "name": "torn_tail_archived_and_repaired",
+      "passed": true
+    },
+    {
+      "name": "interrupted_budget_not_reset",
+      "passed": true
+    },
+    {
+      "name": "soft_budget_blocks_without_progress",
+      "passed": true
+    },
+    {
+      "name": "nearest_rank_metrics",
+      "passed": true
+    }
+  ],
+  "scope": "Implementation checks and actual media execution, not model accuracy or a natural Slow Path observation."
+}

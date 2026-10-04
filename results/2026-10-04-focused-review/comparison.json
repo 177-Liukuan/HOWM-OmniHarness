@@ -1,0 +1,280 @@
+{
+  "rows": [
+    {
+      "question_id": "001",
+      "before": {
+        "status": "failed",
+        "answer": null,
+        "turns": 4,
+        "elapsed": 98.06427607200021,
+        "protocol_retries": 1,
+        "error": "ContractError: main_competitors must contain 1..5 distinct original integer IDs other than best_candidate 16; include strongest rejected alternative even if no close contender"
+      },
+      "after": {
+        "status": "completed",
+        "answer": 8,
+        "turns": 4,
+        "elapsed": 206.95548267499908,
+        "protocol_retries": 0,
+        "automatic_requests": 2,
+        "requested_requests": 2,
+        "automatic_media_seconds": 3.0161325440003566,
+        "requested_media_seconds": 3.1210277330010285,
+        "decoded_frames": 24,
+        "error": null
+      },
+      "after_initial": 8,
+      "after_entered_slow_path": true,
+      "after_stop_reason": "invalid_request_count"
+    },
+    {
+      "question_id": "003",
+      "before": {
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 81.19536962800157,
+        "protocol_retries": 0,
+        "error": null
+      },
+      "after": {
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 136.45820266999908,
+        "protocol_retries": 0,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "automatic_media_seconds": 3.521742267999798,
+        "requested_media_seconds": null,
+        "decoded_frames": 24,
+        "error": null
+      },
+      "after_initial": 14,
+      "after_entered_slow_path": false,
+      "after_stop_reason": "sufficient"
+    },
+    {
+      "question_id": "012",
+      "before": {
+        "status": "completed",
+        "answer": 16,
+        "turns": 3,
+        "elapsed": 76.86975544100096,
+        "protocol_retries": 0,
+        "error": null
+      },
+      "after": {
+        "status": "completed",
+        "answer": 16,
+        "turns": 3,
+        "elapsed": 184.43973965700025,
+        "protocol_retries": 0,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "automatic_media_seconds": 9.138314476997039,
+        "requested_media_seconds": null,
+        "decoded_frames": 24,
+        "error": null
+      },
+      "after_initial": 16,
+      "after_entered_slow_path": false,
+      "after_stop_reason": "request_rejected: duplicate evidence request"
+    },
+    {
+      "question_id": "094",
+      "before": {
+        "status": "completed",
+        "answer": 16,
+        "turns": 4,
+        "elapsed": 111.56833243700021,
+        "protocol_retries": 1,
+        "error": null
+      },
+      "after": {
+        "status": "completed",
+        "answer": 21,
+        "turns": 3,
+        "elapsed": 173.9870104189995,
+        "protocol_retries": 0,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "automatic_media_seconds": 3.640517036001256,
+        "requested_media_seconds": null,
+        "decoded_frames": 24,
+        "error": null
+      },
+      "after_initial": 21,
+      "after_entered_slow_path": false,
+      "after_stop_reason": "sufficient"
+    }
+  ],
+  "before": {
+    "completed": 3,
+    "planned": 4,
+    "calls": {
+      "n": 4,
+      "mean": 3.5,
+      "p50": 3,
+      "p95": 4
+    },
+    "seconds_all_including_failures": {
+      "n": 4,
+      "mean": 91.92443339450074,
+      "p50": 81.19536962800157,
+      "p95": 111.56833243700021
+    },
+    "automatic_media_seconds": {
+      "n": 4,
+      "mean": 0.0,
+      "p50": 0,
+      "p95": 0
+    },
+    "protocol_retries": 2,
+    "fast_path_count": 4,
+    "slow_path_count": 0,
+    "requests_total": 0,
+    "automatic_requests": 0,
+    "requested_requests": 0
+  },
+  "after": {
+    "completed": 4,
+    "planned": 4,
+    "calls": {
+      "n": 4,
+      "mean": 3.25,
+      "p50": 3,
+      "p95": 4
+    },
+    "seconds_all_including_failures": {
+      "n": 4,
+      "mean": 175.46010885524947,
+      "p50": 173.9870104189995,
+      "p95": 206.95548267499908
+    },
+    "automatic_media_seconds": {
+      "n": 4,
+      "mean": 4.829176581249612,
+      "p50": 3.521742267999798,
+      "p95": 9.138314476997039
+    },
+    "protocol_retries": 0,
+    "fast_path_count": 3,
+    "slow_path_count": 1,
+    "requests_total": 16,
+    "automatic_requests": 14,
+    "requested_requests": 2
+  },
+  "before_teacher": {
+    "reference_kind": "teacher_pseudo",
+    "reference_sha256": "89013fcadb15d6bb774f95ae4c46b5fdb555405920d8a2ee2b3d41dce6b9b702",
+    "planned": 4,
+    "with_reference": 4,
+    "missing_reference": [],
+    "valid_with_reference": 3,
+    "matched": 0,
+    "completion_rate": 0.75,
+    "reference_match_completed": 0.0,
+    "reference_match_all_eligible": 0.0,
+    "matches": [],
+    "disagreements": [
+      "003",
+      "012",
+      "094"
+    ],
+    "uncompleted": [
+      "001"
+    ],
+    "official_accuracy": null,
+    "warning": "Teacher predictions are noisy pseudo-labels. These development questions are not an independent test set."
+  },
+  "after_teacher": {
+    "reference_kind": "teacher_pseudo",
+    "reference_sha256": "89013fcadb15d6bb774f95ae4c46b5fdb555405920d8a2ee2b3d41dce6b9b702",
+    "planned": 4,
+    "with_reference": 4,
+    "missing_reference": [],
+    "valid_with_reference": 4,
+    "matched": 1,
+    "completion_rate": 1.0,
+    "reference_match_completed": 0.25,
+    "reference_match_all_eligible": 0.25,
+    "matches": [
+      "094"
+    ],
+    "disagreements": [
+      "001",
+      "003",
+      "012"
+    ],
+    "uncompleted": [],
+    "official_accuracy": null,
+    "warning": "Teacher predictions are noisy pseudo-labels. These development questions are not an independent test set."
+  },
+  "native_review_audits": [
+    {
+      "question_id": "001",
+      "turn": "004-review.audit.json",
+      "image_names": [
+        "states.jpg",
+        "option_08_sample_46920931d72d9af2.jpg",
+        "option_17_sample_722a4c25a3d45c66.jpg",
+        "option_08_sample_16288c86ea524278.jpg",
+        "option_17_sample_30a56b35c661cb88.jpg"
+      ],
+      "same_native_thread": true,
+      "byte_identical_native_images": true
+    },
+    {
+      "question_id": "001",
+      "turn": "003-review.audit.json",
+      "image_names": [
+        "states.jpg",
+        "option_08_sample_46920931d72d9af2.jpg",
+        "option_17_sample_722a4c25a3d45c66.jpg"
+      ],
+      "same_native_thread": true,
+      "byte_identical_native_images": true
+    },
+    {
+      "question_id": "003",
+      "turn": "003-review.audit.json",
+      "image_names": [
+        "states.jpg",
+        "option_14_sample_9b87ac0ce220d09a.jpg",
+        "option_15_sample_3c099c52801dc2bf.jpg",
+        "option_19_sample_2e39c8813be0f2ed.jpg",
+        "option_20_sample_3298c4e50d69d513.jpg"
+      ],
+      "same_native_thread": true,
+      "byte_identical_native_images": true
+    },
+    {
+      "question_id": "012",
+      "turn": "003-review.audit.json",
+      "image_names": [
+        "states.jpg",
+        "option_16_sample_2cf7268696951653.jpg",
+        "option_21_sample_58d490d906b553e3.jpg",
+        "option_27_sample_7074ef3f22f962cb.jpg",
+        "option_28_sample_1a01bb5d536421aa.jpg"
+      ],
+      "same_native_thread": true,
+      "byte_identical_native_images": true
+    },
+    {
+      "question_id": "094",
+      "turn": "003-review.audit.json",
+      "image_names": [
+        "states.jpg",
+        "option_21_sample_16ed10f0998c6def.jpg",
+        "option_22_sample_1b718810f9db5ee2.jpg",
+        "option_15_sample_2ea5c0ab1fb0c2a3.jpg",
+        "option_16_sample_200ab82e6d3bcf74.jpg"
+      ],
+      "same_native_thread": true,
+      "byte_identical_native_images": true
+    }
+  ],
+  "scope": "Four development questions, shared resident service (other requests observed), all terminal outcomes retained. Teacher agreement is not official accuracy. This compares complete implementation revisions, not a single-factor accuracy ablation."
+}

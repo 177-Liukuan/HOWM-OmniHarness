@@ -1,0 +1,6 @@
+HOWM-OmniHarness adapts the runtime design of OmniHarness (Apache-2.0),
+Copyright 2026 OmniHarness Authors, revision in provenance.json.
+No ComfyBench images, workflows, or benchmark metadata are included.
+Media preparation and submission IO are copied from this project's frozen
+HOWMAgent_Qwen-9B_PromptExample experiment; hashes are in provenance.json.
+All other HOWM adapter code and role prompts are newly written for this project.

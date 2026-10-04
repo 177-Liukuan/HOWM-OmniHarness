@@ -1,0 +1,35 @@
+# Python / editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+
+# Local credentials and native agent state
+.env
+.env.*
+!.env.example
+.codex/
+**/codex-home/
+auth.json
+*.pem
+*.key
+
+# Runtime output and large local resources; curated results/ is versioned
+/outputs/
+/evidence/
+/logs/
+/datasets/
+/models/
+/cache/
+/.cache/
+*.log
+*.safetensors
+*.ckpt
+*.pt
+*.pth

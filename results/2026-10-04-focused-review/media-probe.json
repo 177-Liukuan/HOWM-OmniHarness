@@ -1,0 +1,112 @@
+{
+  "first": {
+    "request": {
+      "action": "sample_video",
+      "option_id": 21,
+      "time_range_seconds": [
+        0.205,
+        3.8949999999999996
+      ],
+      "frames": 6,
+      "affected_candidates": [
+        21,
+        17
+      ],
+      "expected_observation": "核对动作方向",
+      "decision_impact": "比较装入和拆离"
+    },
+    "source_sha256": "ee76d133fa0e1abdbbd9898e9fc05364ed5a242afca28046867ab140d9423f8b",
+    "source": "/storage1/HOWM-LAB-Project/datasets/HomeHWM/extracted/HomeHWM_preliminary_questions_5000_schema_3_1/094/options/21.mp4",
+    "question_id": "094",
+    "id": "evidence_16ed10f0998c6def.jpg",
+    "layout": {
+      "version": 2,
+      "columns": 2,
+      "frame_width": 512,
+      "frame_height": 288,
+      "label_height": 32
+    },
+    "cache_hit": false,
+    "requested_times": [
+      0.205,
+      0.9429999999999998,
+      1.6809999999999998,
+      2.4189999999999996,
+      3.1569999999999996,
+      3.894999999999999
+    ],
+    "actual_times": [
+      0.233567,
+      0.967633,
+      1.7017,
+      2.43577,
+      3.16983,
+      3.9039
+    ],
+    "unique_frames": 6,
+    "decoded_frames": 6,
+    "image": {
+      "file": "evidence_16ed10f0998c6def.jpg",
+      "width": 1024,
+      "height": 960,
+      "size": 269988,
+      "sha256": "dc6689896f1c75bf4855f1c33cf117eda97daf20a12ce1a4e656cfad22120baf"
+    },
+    "execution_seconds": 0.8792962119987351
+  },
+  "cached": {
+    "request": {
+      "action": "sample_video",
+      "option_id": 21,
+      "time_range_seconds": [
+        0.205,
+        3.8949999999999996
+      ],
+      "frames": 6,
+      "affected_candidates": [
+        21,
+        17
+      ],
+      "expected_observation": "核对动作方向",
+      "decision_impact": "比较装入和拆离"
+    },
+    "source_sha256": "ee76d133fa0e1abdbbd9898e9fc05364ed5a242afca28046867ab140d9423f8b",
+    "source": "/storage1/HOWM-LAB-Project/datasets/HomeHWM/extracted/HomeHWM_preliminary_questions_5000_schema_3_1/094/options/21.mp4",
+    "question_id": "094",
+    "id": "evidence_16ed10f0998c6def.jpg",
+    "layout": {
+      "version": 2,
+      "columns": 2,
+      "frame_width": 512,
+      "frame_height": 288,
+      "label_height": 32
+    },
+    "cache_hit": true,
+    "requested_times": [
+      0.205,
+      0.9429999999999998,
+      1.6809999999999998,
+      2.4189999999999996,
+      3.1569999999999996,
+      3.894999999999999
+    ],
+    "actual_times": [
+      0.233567,
+      0.967633,
+      1.7017,
+      2.43577,
+      3.16983,
+      3.9039
+    ],
+    "unique_frames": 6,
+    "decoded_frames": 0,
+    "image": {
+      "file": "evidence_16ed10f0998c6def.jpg",
+      "width": 1024,
+      "height": 960,
+      "size": 269988,
+      "sha256": "dc6689896f1c75bf4855f1c33cf117eda97daf20a12ce1a4e656cfad22120baf"
+    },
+    "execution_seconds": 0.0008430809994024457
+  }
+}

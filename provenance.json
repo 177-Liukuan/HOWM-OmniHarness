@@ -1,0 +1,14 @@
+{
+  "omniharness_commit": "22271facabc4c9e6a4441da2f867af745dd747df",
+  "vendor": {
+    "prepare_evidence.py": {
+      "source": "/storage1/HOWM-LAB-Project/outputs/HOWMAgent_Qwen-9B_PromptExample-265-coarse-refine-20260930T181517Z/source/vendor/prepare_evidence.py",
+      "sha256": "64ee878d076b04ef1127b2d15d98eabd81d1dbb7ff84f2d900834877310b35fe"
+    },
+    "submission_io.py": {
+      "source": "/storage1/HOWM-LAB-Project/outputs/HOWMAgent_Qwen-9B_PromptExample-265-coarse-refine-20260930T181517Z/source/vendor/submission_io.py",
+      "sha256": "6ea0d5de72d4b6f4ef20c6bce98eff6c1935190374e4954120e6aff2ad611cb8"
+    }
+  },
+  "adaptation": "Python runtime + same-question native Codex thread; fused Planning/Observation/Review; generation workflow replaced with evidence acquisition"
+}

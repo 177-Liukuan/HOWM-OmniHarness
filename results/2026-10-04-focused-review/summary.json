@@ -1,0 +1,168 @@
+{
+  "started": 4,
+  "completed": 4,
+  "failed": 0,
+  "running": 0,
+  "fast_path_share": 0.75,
+  "slow_path_share": 0.25,
+  "all_terminal": {
+    "turns": {
+      "n": 4,
+      "mean": 3.25,
+      "p50": 3,
+      "p95": 4
+    },
+    "requests": {
+      "n": 4,
+      "mean": 4.0,
+      "p50": 4,
+      "p95": 4
+    },
+    "elapsed": {
+      "n": 4,
+      "mean": 175.46010885524947,
+      "p50": 173.9870104189995,
+      "p95": 206.95548267499908
+    }
+  },
+  "groups": {
+    "fast": {
+      "count": 3,
+      "completed": 3,
+      "turns": {
+        "n": 3,
+        "mean": 3.0,
+        "p50": 3,
+        "p95": 3
+      },
+      "requests": {
+        "n": 3,
+        "mean": 4.0,
+        "p50": 4,
+        "p95": 4
+      },
+      "elapsed": {
+        "n": 3,
+        "mean": 164.96165091533294,
+        "p50": 173.9870104189995,
+        "p95": 184.43973965700025
+      }
+    },
+    "slow": {
+      "count": 1,
+      "completed": 1,
+      "turns": {
+        "n": 1,
+        "mean": 4.0,
+        "p50": 4,
+        "p95": 4
+      },
+      "requests": {
+        "n": 1,
+        "mean": 4.0,
+        "p50": 4,
+        "p95": 4
+      },
+      "elapsed": {
+        "n": 1,
+        "mean": 206.95548267499908,
+        "p50": 206.95548267499908,
+        "p95": 206.95548267499908
+      }
+    },
+    "success": {
+      "count": 4,
+      "completed": 4,
+      "turns": {
+        "n": 4,
+        "mean": 3.25,
+        "p50": 3,
+        "p95": 4
+      },
+      "requests": {
+        "n": 4,
+        "mean": 4.0,
+        "p50": 4,
+        "p95": 4
+      },
+      "elapsed": {
+        "n": 4,
+        "mean": 175.46010885524947,
+        "p50": 173.9870104189995,
+        "p95": 206.95548267499908
+      }
+    },
+    "failure": {
+      "count": 0,
+      "completed": 0,
+      "turns": {
+        "n": 0,
+        "mean": null,
+        "p50": null,
+        "p95": null
+      },
+      "requests": {
+        "n": 0,
+        "mean": null,
+        "p50": null,
+        "p95": null
+      },
+      "elapsed": {
+        "n": 0,
+        "mean": null,
+        "p50": null,
+        "p95": null
+      }
+    }
+  },
+  "automatic_requests": {
+    "n": 4,
+    "mean": 3.5,
+    "p50": 4,
+    "p95": 4
+  },
+  "review_requested_requests": {
+    "n": 4,
+    "mean": 0.5,
+    "p50": 0,
+    "p95": 2
+  },
+  "automatic_media_seconds": {
+    "n": 4,
+    "mean": 4.829176581249612,
+    "p50": 3.521742267999798,
+    "p95": 9.138314476997039
+  },
+  "requested_media_seconds": {
+    "n": 4,
+    "mean": 0.7802569332502571,
+    "p50": 0,
+    "p95": 3.1210277330010285
+  },
+  "additional_decoded_frames": {
+    "n": 4,
+    "mean": 24.0,
+    "p50": 24,
+    "p95": 24
+  },
+  "request_accounting": "requests includes automatic boards and Review requests; base 30-video preparation is included in elapsed time; additional_decoded_frames excludes the fixed 90 base frames",
+  "budget_terminated": 0,
+  "extension_events": 0,
+  "measured_wall_seconds": 702.7581355059992,
+  "allocated_gpus": 2,
+  "estimated_5000_firstpass_wall_hours": 244.01324149513863,
+  "estimated_5000_firstpass_allocated_gpu_hours": 488.02648299027726,
+  "estimate_scope": "Sequential, includes failures and preprocessing; not a promise of 5000 valid answers. GPU allocation, not kernel busy time. Small development sample.",
+  "accuracy": null,
+  "submission": {
+    "expected": 4,
+    "lines": 4,
+    "completed": 4,
+    "missing": [],
+    "duplicates": [],
+    "invalid": [],
+    "unterminated_tail": false,
+    "complete": true,
+    "exists": true
+  }
+}

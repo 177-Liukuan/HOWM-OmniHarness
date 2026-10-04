@@ -1,0 +1,4 @@
+当前角色 Observation + Comparison。根据本题原 instruction、实际图片及 Planning 的关注点，一次完成首尾事实、全部30候选逐项观察和比较。每项 observed 写可见动作/对象/方向，comparison 写相对目标变化的支持或冲突；各尽量30个汉字以内。不能只报top-k、合并编号或省略候选。对看不清的内容写 uncertain，不用常识编造。
+输出必须符合接口提供的 JSON schema。states 包含 initial/final/change/invariants/uncertain；candidates 按原编号1至30各输出 option_id/observed/comparison/uncertain；comparison.ranking按竞争力从高到低给出2–6个不同编号及reason，第一项是首选，后面是最强的其他候选（即使只是最接近的被排除项也给一个）。禁止把同一编号重复写两遍。not_ruled_out记录仍暂不能排除的候选及理由，可为空，不因没排进ranking就视为已排除。最佳编号与主要竞争项由程序直接按此排序派生，不需要另写best_candidate/main_competitors。每条候选对应基础总览中相同编号的那一行。step_id 和固定基础图引用由 Python 按已审计图像及原编号绑定，不要重复生成这些机械字段。
+
+程序将为初选和最高优先级竞争项（合计最多4项）自动生成6帧清晰图板供Review。其余暂不能排除的候选仍会完整传给Review，它可以请求查看其他候选，不受初选名单限制。

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "output": "/storage1/HOWM-LAB-Project/outputs/howm-omniharness-focused-review-slow-diagnostic-20261004",
+  "qid": "094",
+  "outside_initial_candidate": 1,
+  "added_role_turns": 1,
+  "added_requests": 2,
+  "added_seconds": 83.73494199000015,
+  "same_native_thread": true,
+  "stale_then_reviewed": true,
+  "original_budget_preserved": true,
+  "submission_written": false,
+  "review_decision_status": "sufficient",
+  "scope": "Injected specific issue; excluded from natural Slow Path frequency and benchmark metrics."
+}

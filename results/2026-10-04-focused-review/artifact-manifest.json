@@ -1,0 +1,65 @@
+{
+  "description": "Exact copies of existing development reports and four-question results; no new inference.",
+  "artifacts": [
+    {
+      "file": "报告.md",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/报告.md",
+      "sha256": "4a647135231fc2b9d7eda71da15f5cbad2bea6b75cb3306921c66e785f7bea4f"
+    },
+    {
+      "file": "comparison.json",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/comparison.json",
+      "sha256": "68cdeed7aa1ad8aea789a7069fc9893e431c6bd74c8a8b41948d0f406501ba58"
+    },
+    {
+      "file": "development-cost.json",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/development-cost.json",
+      "sha256": "bcf61bae342152b70e31a0f152f6a7566ea71568400a4925c15e6f8d7276fd2c"
+    },
+    {
+      "file": "development-notes.json",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/development-notes.json",
+      "sha256": "a1fc97ff0c09729b587df7cccd65c3bbf8785eb26d82ddedc82fb9416768c4e7"
+    },
+    {
+      "file": "final-source-check.json",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/final-source-check.json",
+      "sha256": "96483f62def297fd60bc532e84007f18700e9b77c80a973b618b81fd6ebb811b"
+    },
+    {
+      "file": "iteration-results.json",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/iteration-results.json",
+      "sha256": "17a62b9359446a7d3ff5441d75f927f074de89ef50872771227c387d1348628f"
+    },
+    {
+      "file": "media-probe.json",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/media-probe.json",
+      "sha256": "1f3f7c5d40be67bd94fe7337aacc77f5864b93fffb00481dacefcabbf41b3572"
+    },
+    {
+      "file": "slow-diagnostic.json",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/slow-diagnostic.json",
+      "sha256": "a37f833c5ab70ac9a77fd0cce801c4f3d7ffa3e090cdee690a7196c37d466d18"
+    },
+    {
+      "file": "runtime-regression/report.json",
+      "source": "/storage1/HOWM-LAB-Project/evaluations/howm-omniharness-focused-review-20261004/runtime-regression/report.json",
+      "sha256": "120a39c358947c0a2f6e7253e0f563c6b3cceaf7c45f486f70230ddfdfb08b10"
+    },
+    {
+      "file": "submission.jsonl",
+      "source": "/storage1/HOWM-LAB-Project/outputs/howm-omniharness-focused-review-final-20261004/submission.jsonl",
+      "sha256": "812e0d78c5066d295ab1a241b6ae22376d6b258bae894b92c5971c47c7ef32cb"
+    },
+    {
+      "file": "manifest.json",
+      "source": "/storage1/HOWM-LAB-Project/outputs/howm-omniharness-focused-review-final-20261004/manifest.json",
+      "sha256": "9357407c526301790ab83f83588cce6b7708cc8b23e16fd6f014f84d38ed801d"
+    },
+    {
+      "file": "summary.json",
+      "source": "/storage1/HOWM-LAB-Project/outputs/howm-omniharness-focused-review-final-20261004/summary.json",
+      "sha256": "19b647b160a2c92537ed55e3992b3b4c04d71f5061f8aaf6ed5ef9c3bb1f04ef"
+    }
+  ]
+}

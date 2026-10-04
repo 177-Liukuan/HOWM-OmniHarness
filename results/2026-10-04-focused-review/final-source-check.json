@@ -1,0 +1,46 @@
+{
+  "run.py": {
+    "current_sha256": "584f13c05db845b8caa2a383725fef475c13f240e374b7c12d8cf452010525b2",
+    "tested_snapshot_sha256": "584f13c05db845b8caa2a383725fef475c13f240e374b7c12d8cf452010525b2"
+  },
+  "contracts.py": {
+    "current_sha256": "88aa7d49950068081f59618b55baf212c786c8fbb6531830f43ac5aee2604695",
+    "tested_snapshot_sha256": "88aa7d49950068081f59618b55baf212c786c8fbb6531830f43ac5aee2604695"
+  },
+  "schemas.py": {
+    "current_sha256": "dcd32df6fda26f3b63e52e8747bea3307d1da5c768108e88f6659105f1cb1cb8",
+    "tested_snapshot_sha256": "dcd32df6fda26f3b63e52e8747bea3307d1da5c768108e88f6659105f1cb1cb8"
+  },
+  "evidence.py": {
+    "current_sha256": "fae94819bfbe248358cc738150dfed3edb2c65060f970bc12372bf49ce7bd018",
+    "tested_snapshot_sha256": "fae94819bfbe248358cc738150dfed3edb2c65060f970bc12372bf49ce7bd018"
+  },
+  "state.py": {
+    "current_sha256": "6b2a6247371075e7ab435e9cd1a2e54ff3e5b8433deffddc430e008368ec60ef",
+    "tested_snapshot_sha256": "6b2a6247371075e7ab435e9cd1a2e54ff3e5b8433deffddc430e008368ec60ef"
+  },
+  "codex_team.py": {
+    "current_sha256": "2e20066f93120ba41d4b632b81ebdc9bd189e5f2c30c22af6f6598d8b2c8eee4",
+    "tested_snapshot_sha256": "2e20066f93120ba41d4b632b81ebdc9bd189e5f2c30c22af6f6598d8b2c8eee4"
+  },
+  "prompts/planning.txt": {
+    "current_sha256": "c29a6ca945ca407a05f1fa9522096ed21210491409ffd2d3355614c95bc47061",
+    "tested_snapshot_sha256": "c29a6ca945ca407a05f1fa9522096ed21210491409ffd2d3355614c95bc47061"
+  },
+  "prompts/observation.txt": {
+    "current_sha256": "60726b02f2c103a64623c92cec3319097df1fa204d65024db3f38e9c2859e46d",
+    "tested_snapshot_sha256": "60726b02f2c103a64623c92cec3319097df1fa204d65024db3f38e9c2859e46d"
+  },
+  "prompts/review.txt": {
+    "current_sha256": "8177e5111b08bdd0bf52e57ba6175a9059b79fc6e72fb05af192c3289ed10feb",
+    "tested_snapshot_sha256": "8177e5111b08bdd0bf52e57ba6175a9059b79fc6e72fb05af192c3289ed10feb"
+  },
+  "config/runtime.json": {
+    "current_sha256": "ad0604e4e587382c2174aae8e3167356b5c747478f8093e13ae3c149854e2350",
+    "tested_snapshot_sha256": "ad0604e4e587382c2174aae8e3167356b5c747478f8093e13ae3c149854e2350"
+  },
+  "validate_slow_path.py": {
+    "current_sha256": "b28e1b7b8fffe5d47d9a3051d147177e78905d709937c693097211277aeeea70",
+    "tested_snapshot_sha256": "b28e1b7b8fffe5d47d9a3051d147177e78905d709937c693097211277aeeea70"
+  }
+}

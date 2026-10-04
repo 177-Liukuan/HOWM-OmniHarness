@@ -1,0 +1,30 @@
+{
+  "seed": 20260929,
+  "soft": {
+    "turns": 8,
+    "attempts": 2,
+    "batches": 2,
+    "requests": 8,
+    "seconds": 300
+  },
+  "hard": {
+    "turns": 96,
+    "attempts": 9,
+    "batches": 8,
+    "requests": 32,
+    "seconds": 2400
+  },
+  "extensions": 6,
+  "finish_grace": 120,
+  "call_timeout": 300,
+  "gpus": 2,
+  "focused_review": {
+    "enabled": true,
+    "max_initial_candidates": 4,
+    "frames_per_candidate": 6,
+    "start_fraction": 0.05,
+    "end_fraction": 0.95,
+    "initial_requests_included_in_soft_limit": true,
+    "interactive_request_allowance": 4
+  }
+}

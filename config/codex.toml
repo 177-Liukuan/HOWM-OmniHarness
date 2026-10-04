@@ -1,0 +1,53 @@
+# Independent container-only Codex configuration. No host auth/config is mounted.
+model = "howm-qwen35-9b"
+model_provider = "howm_vllm"
+model_catalog_json = "/method/config/models.json"
+model_context_window = 131072
+model_auto_compact_token_limit = 112000
+model_reasoning_effort = "none"
+model_reasoning_summary = "none"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+web_search = "disabled"
+tool_output_token_limit = 6000
+suppress_unstable_features_warning = true
+
+[model_providers.howm_vllm]
+name = "HOWM local Qwen3.5-9B"
+base_url = "http://127.0.0.1:8000/v1"
+wire_api = "responses"
+requires_openai_auth = false
+supports_websockets = false
+request_max_retries = 0
+stream_max_retries = 0
+stream_idle_timeout_ms = 300000
+
+[agents]
+enabled = false
+max_concurrent_threads_per_session = 4
+max_depth = 1
+default_subagent_model = "howm-qwen35-9b"
+
+[features]
+shell_tool = false
+view_image = false
+unified_exec = false
+multi_agent = false
+multi_agent_v2 = false
+apply_patch_freeform = false
+code_mode = false
+apps = false
+plugins = false
+memories = false
+image_generation = false
+remote_models = false
+responses_websockets = false
+responses_websockets_v2 = false
+shell_snapshot = false
+default_mode_request_user_input = false
+
+[feedback]
+enabled = false
+
+[shell_environment_policy]
+inherit = "all"

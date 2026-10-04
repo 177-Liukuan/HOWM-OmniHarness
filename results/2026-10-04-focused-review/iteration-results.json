@@ -1,0 +1,323 @@
+[
+  {
+    "run": "howm-omniharness-focused-review-after-v1-20261004",
+    "questions": [
+      {
+        "question_id": "001",
+        "status": "completed",
+        "answer": 16,
+        "turns": 3,
+        "elapsed": 112.44308690400067,
+        "entered_slow_path": false,
+        "automatic_requests": 3,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "003",
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 99.84919229499974,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "012",
+        "status": "completed",
+        "answer": 16,
+        "turns": 3,
+        "elapsed": 109.89344433299993,
+        "entered_slow_path": false,
+        "automatic_requests": 3,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "094",
+        "status": "completed",
+        "answer": 21,
+        "turns": 3,
+        "elapsed": 93.9287198889997,
+        "entered_slow_path": false,
+        "automatic_requests": 3,
+        "requested_requests": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run": "howm-omniharness-focused-review-after-v2-20261004",
+    "questions": [
+      {
+        "question_id": "001",
+        "status": "failed",
+        "answer": null,
+        "turns": 3,
+        "elapsed": 106.32650831399951,
+        "entered_slow_path": false,
+        "automatic_requests": null,
+        "requested_requests": null,
+        "error": "ContractError: invalid main_competitors"
+      },
+      {
+        "question_id": "003",
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 105.99039218299913,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "012",
+        "status": "failed",
+        "answer": null,
+        "turns": 3,
+        "elapsed": 130.57178454300083,
+        "entered_slow_path": false,
+        "automatic_requests": null,
+        "requested_requests": null,
+        "error": "ContractError: invalid main_competitors"
+      }
+    ]
+  },
+  {
+    "run": "howm-omniharness-focused-review-after-v3-20261004",
+    "questions": [
+      {
+        "question_id": "001",
+        "status": "failed",
+        "answer": null,
+        "turns": 4,
+        "elapsed": 113.20823130200006,
+        "entered_slow_path": false,
+        "automatic_requests": 3,
+        "requested_requests": null,
+        "error": "ContractError: decision must cite the chosen candidate board"
+      },
+      {
+        "question_id": "003",
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 108.26972990800095,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "012",
+        "status": "completed",
+        "answer": 16,
+        "turns": 3,
+        "elapsed": 129.85011928599852,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run": "howm-omniharness-focused-review-after-v4-20261004",
+    "questions": [
+      {
+        "question_id": "001",
+        "status": "completed",
+        "answer": 8,
+        "turns": 4,
+        "elapsed": 136.51557489900006,
+        "entered_slow_path": false,
+        "automatic_requests": 3,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "003",
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 95.68103727400012,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "012",
+        "status": "failed",
+        "answer": null,
+        "turns": 2,
+        "elapsed": 300.1353828629999,
+        "entered_slow_path": false,
+        "automatic_requests": null,
+        "requested_requests": null,
+        "error": "TimeoutExpired: Command '['codex', 'exec', '--strict-config', '--skip-git-repo-check', '--json', '--output-last-message', '/work/questions/012/turns/002-planning.final.txt', 'resume', '01a105c3-c47b-7453-8fa5-1798e9395ed8', '--output-schema', '/work/questions/012/turns/002-planning.schema.json', '--image', '/work/evidence/012/states.jpg', '--image', '/work/evidence/012/options_01_10.jpg', '--image', '/work/evidence/012/options_11_20.jpg', '--image', '/work/evidence/012/options_21_30.jpg', '--', '-']' timed out after 16.2916709860001 seconds"
+      },
+      {
+        "question_id": "094",
+        "status": "completed",
+        "answer": 21,
+        "turns": 3,
+        "elapsed": 100.3098734819996,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run": "howm-omniharness-focused-review-after-v5-20261004",
+    "questions": [
+      {
+        "question_id": "001",
+        "status": "completed",
+        "answer": 16,
+        "turns": 3,
+        "elapsed": 158.33784659199955,
+        "entered_slow_path": false,
+        "automatic_requests": 3,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "003",
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 141.28049827599898,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "012",
+        "status": "completed",
+        "answer": 16,
+        "turns": 4,
+        "elapsed": 294.62043308600005,
+        "entered_slow_path": true,
+        "automatic_requests": 4,
+        "requested_requests": 4,
+        "error": null
+      },
+      {
+        "question_id": "094",
+        "status": "completed",
+        "answer": 21,
+        "turns": 3,
+        "elapsed": 151.28501675000007,
+        "entered_slow_path": false,
+        "automatic_requests": 3,
+        "requested_requests": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run": "howm-omniharness-focused-review-before-20261004",
+    "questions": [
+      {
+        "question_id": "001",
+        "status": "failed",
+        "answer": null,
+        "turns": 4,
+        "elapsed": 98.06427607200021,
+        "entered_slow_path": false,
+        "automatic_requests": null,
+        "requested_requests": null,
+        "error": "ContractError: main_competitors must contain 1..5 distinct original integer IDs other than best_candidate 16; include strongest rejected alternative even if no close contender"
+      },
+      {
+        "question_id": "003",
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 81.19536962800157,
+        "entered_slow_path": false,
+        "automatic_requests": null,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "012",
+        "status": "completed",
+        "answer": 16,
+        "turns": 3,
+        "elapsed": 76.86975544100096,
+        "entered_slow_path": false,
+        "automatic_requests": null,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "094",
+        "status": "completed",
+        "answer": 16,
+        "turns": 4,
+        "elapsed": 111.56833243700021,
+        "entered_slow_path": false,
+        "automatic_requests": null,
+        "requested_requests": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run": "howm-omniharness-focused-review-final-20261004",
+    "questions": [
+      {
+        "question_id": "001",
+        "status": "completed",
+        "answer": 8,
+        "turns": 4,
+        "elapsed": 206.95548267499908,
+        "entered_slow_path": true,
+        "automatic_requests": 2,
+        "requested_requests": 2,
+        "error": null
+      },
+      {
+        "question_id": "003",
+        "status": "completed",
+        "answer": 14,
+        "turns": 3,
+        "elapsed": 136.45820266999908,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "012",
+        "status": "completed",
+        "answer": 16,
+        "turns": 3,
+        "elapsed": 184.43973965700025,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      },
+      {
+        "question_id": "094",
+        "status": "completed",
+        "answer": 21,
+        "turns": 3,
+        "elapsed": 173.9870104189995,
+        "entered_slow_path": false,
+        "automatic_requests": 4,
+        "requested_requests": null,
+        "error": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "question_attempts": 26,
+  "role_turns_including_isolated_diagnostic": 84,
+  "sum_active_question_seconds_including_diagnostic": 3641.7699831679984,
+  "scope": "All before/v1-v5/final development runs, failures included; question-time sum, not elapsed wall clock or GPU kernel time."
+}
